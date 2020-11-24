@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.hydrometeocharlevoix.configurer.Controller">
+    <GridPane
+        alignment="CENTER"
+        fx:id="pane"
+        hgap="10" vgap="10">
+    </GridPane>
+    <TextArea
+        fx:id="log"
+    />
+</VBox>
