@@ -60,7 +60,7 @@ public class Controller {
         try {
             Properties props = new Properties();
             props.setProperty("mail.smtp.ssl.enable", "true");
-            props.setProperty("mail.smtp.host", "smtp.mail.yahoo.com");
+            props.setProperty("mail.smtp.host", "hydrometeocharlevoix.com");
             props.setProperty("mail.smtp.port", "465");
             Session session = Session.getInstance(props);
 
