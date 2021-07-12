@@ -10,10 +10,10 @@
     </Appenders>
     <Loggers>
         <Logger name="com.hydrometeocharlevoix.configurer.Main" level="trace" additivity="false">
-            <AppenderRef ref="Console"/>
+            <AppenderRef ref="LocalFile"/>
         </Logger>
         <Root level="ERROR">
-            <AppenderRef ref="Console"/>
+            <AppenderRef ref="LocalFile"/>
         </Root>
     </Loggers>
 </Configuration>
